@@ -18,7 +18,7 @@ export default function RootLayout() {
       borderTopWidth: 1,
     },
     tabBarActiveTintColor: COLORS.text,
-    tabBarInactiveTintColor: COLORS.inactive,
+    tabBarInactiveTintColor: 'white',
   }}>
     <Tabs.Screen
     name="people"

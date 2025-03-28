@@ -12,13 +12,14 @@ const Layout = () => {
         headerTintColor: COLORS.text,
         headerTitleStyle:{
           fontWeight: 'bold',
+          fontSize: 24,
         },
         contentStyle: {
             backgroundColor: COLORS.background,
         }
         
       }}>
-        <Stack.Screen name="index" options={{title: 'All Characters'}}/>
+        <Stack.Screen name="index" options={{title: 'Characters'}}/>
         <Stack.Screen name="[id]" options={{title: 'Character Details'}}/>
       </Stack>
   )

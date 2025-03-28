@@ -23,20 +23,19 @@ export const PeopleItem: React.FC<{item: People}> = ({item}) => {
 export default PeopleItem
 const styles = StyleSheet.create({
   peopleItem:{
-    backgroundColor: COLORS.background,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: 16,
+    backgroundColor: COLORS.itemBackground,
     marginVertical: 8,
     marginHorizontal: 16,
     borderRadius: 8,
   },
   peopleName: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 'bold',
     color: COLORS.text,
     marginBottom: 8,
-  },
-  peopleDetails: {
-    fontSize: 14,
-    color: '#fff',
   },
 });
